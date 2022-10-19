@@ -1,8 +1,8 @@
 import React from 'react'
-
+import './list.scss'
 const List = () => {
   return (
-    <div>list</div>
+    <div className='list'  style={{color:'red'}}>list</div>
   )
 }
 
